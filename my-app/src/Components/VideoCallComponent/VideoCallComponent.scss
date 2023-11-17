@@ -19,19 +19,21 @@
 
 
 
-$button-purple: #2f09ab; // Adjust the shade of purple as needed
+$skip-button-color: #3c2cd1; 
 
-.button {
-  background-color: rgba($button-purple, 0.5); // Adjust the alpha (transparency) value as needed
-  color: #000; // Black text
-  border: none;
-  padding: 10px 20px;
-  font-size: 16px;
+.skip-button {
+  background-color: rgba($skip-button-color, 0.6); // Adjust the alpha (transparency) value as needed
+  color: #000; 
+  padding: 5px 10px;
+  font-size: 25px;
+  border: 1px solid black;
+  border-radius: 8px; 
   cursor: pointer;
+  
   transition: background-color 0.3s ease;
 
   &:hover {
-    background-color: rgba($button-purple, 0.7); // Adjust hover transparency
+    background-color: rgba($skip-button-color, 0.7); // Adjust hover transparency
   }
 }
 
